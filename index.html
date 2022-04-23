@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Jquery-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -24,10 +24,10 @@
                 <div>Giải pháp tối ưu hóa thời gian</div>
             </div>
             <nav class="links" style="--items: 4;">
-                <a class="menu" href="#">Trang chủ</a>
-                <a class="menu" href="#about">Về chúng tôi</a>
-                <a class="menu" href="#function">Tính năng</a>
-                <a class="menu" href="#contact">Liên hệ</a>
+                <a class="menu" id="home_page_btn">Trang chủ</a>
+                <a class="menu" id="about_us_btn">Về chúng tôi</a>
+                <a class="menu" id="function_btn">Tính năng</a>
+                <a class="menu" id="contact_btn">Liên hệ</a>
                 <span class="line"></span>
             </nav>
             <div id="authen_con">
@@ -49,11 +49,10 @@
                     <div id="slide_card">
                         <div class="mockup"></div>
                         <div class="context">
-                            <div class="title">Đăng kí để hiện diện trên nền tảng của chúng tôi</div>
+                            <div class="title">Giải pháp chăm sóc khách hàng </div>
                             <div class="text">
-                                Giải pháp kiến tạo khách hàng trung thành trên Loyalty App và ứng dụng mạng xã hội
-                                Giải pháp kiến tạo khách hàng trung thành trên Loyalty App và ứng dụng mạng xã hội
-                                Giải pháp kiến tạo khách hàng trung thành trên Loyalty App và ứng dụng mạng xã hội.
+                                Chủ tiệm dễ dàng nhận biết được sở thích của khách hàng và đưa ra những dịch vụ tốt hơn.
+                                Từ đó giữ chân khách hàng, tạo ra các loại hình dịch vụ mới.
                             </div>
                             <div class="guest_buttton ">Đăng Kí Tư Vấn</div>
                             <div class="guest_buttton dung_thu_btn">Dùng Thử Miễn Phí</div>
@@ -64,12 +63,10 @@
                     <div id="slide_card">
                         <div id="slide2_ani" class="animate_slide_fra"></div>
                         <div class="context">
-                            <div class="title">Đăng kí để hiện diện trên nền tảng của chúng tôi</div>
+                            <div class="title">Giải pháp tối ưu hoá thời gian chờ </div>
                             <div class="text">
-                                Triển khai ngay chương trình tích luỹ điểm, đổi điểm sang ưu đãi, giữ chân khách cũ, thu
-                                hút khách hàng mới, tăng gấp đôi doanh số cùng CNV Loyalty.
-                                Triển khai ngay chương trình tích luỹ điểm, đổi điểm sang ưu đãi, giữ chân khách cũ, thu
-                                hút khách hàng mới, tăng gấp đôi doanh số cùng CNV Loyalty.
+                                Tổng hợp các phương thức lên lịch và đặt lịch hẹn cho doanh nghiệp. Tiết kiệm tối đa
+                                thời gian chờ cho cả khách hàng và chủ tiệm. Trải nghiệm ngay với Serdules tại đây!
                             </div>
                             <div class="guest_buttton ">Đăng Kí Tư Vấn</div>
                             <div class="guest_buttton dung_thu_btn">Dùng Thử Miễn Phí</div>
@@ -80,11 +77,24 @@
                     <div id="slide_card">
                         <div id="slide3_ani" class="animate_slide_fra"></div>
                         <div class="context">
-                            <div class="title">Đăng kí để hiện diện trên nền tảng của chúng tôi</div>
+                            <div class="title">Giải pháp tối ưu hoá dữ liệu khách hàng </div>
                             <div class="text">
-                                Giải pháp kiến tạo khách hàng trung thành trên Loyalty App và ứng dụng mạng xã hội
-                                Giải pháp kiến tạo khách hàng trung thành trên Loyalty App và ứng dụng mạng xã hội
-                                Giải pháp kiến tạo khách hàng trung thành trên Loyalty App và ứng dụng mạng xã hội.
+                                Nơi tổng hợp các đánh giá, dữ liệu, dòng doanh thu từ khách hàng cho chủ tiệm. Thông qua
+                                đó, nhận biết được tổng dòng doanh thu của tiệm và tính toán giá cả phù hợp.
+                            </div>
+                            <div class="guest_buttton ">Đăng Kí Tư Vấn</div>
+                            <div class="guest_buttton dung_thu_btn">Dùng Thử Miễn Phí</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div id="slide_card">
+                        <div id="slide4_ani" class="animate_slide_fra"></div>
+                        <div class="context">
+                            <div class="title">Giải pháp marketing cho chủ tiệm </div>
+                            <div class="text">
+                                Một hình thức kết nối khách hàng với doanh nghiệp thông qua sự đánh giá khách quan. Tiết
+                                kiệm chi phí quảng cáo, marketing cho doanh nghiệp.
                             </div>
                             <div class="guest_buttton ">Đăng Kí Tư Vấn</div>
                             <div class="guest_buttton dung_thu_btn">Dùng Thử Miễn Phí</div>
@@ -102,9 +112,6 @@
             </a>
         </div>
         <div id="content">
-            <div id="about_us">
-                #about us
-            </div>
             <div id="function" class="content-section">
                 <h2 class="heading-section">Tính năng</h2>
                 <div class="row">
@@ -196,6 +203,7 @@
         </div>
         <div id="footer">
         </div>
+
     </div>
     <!--Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

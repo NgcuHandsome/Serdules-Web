@@ -82,6 +82,11 @@ body #header {
 	border-radius: 40px;
 }
 
+#header .links>.menu {
+	user-select: none;
+}
+
+
 #header .links>.menu:hover {
 	background: rgb(255, 255, 255);
 	color: #FF1E64;
@@ -364,7 +369,7 @@ body #header {
 	align-self: center;
 	width: 600px;
 	margin-top: 20px;
-	margin-left: 50px;
+	margin-left: 100px;
 	position: relative;
 }
 
